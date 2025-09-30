@@ -81,9 +81,9 @@ with open(latex_file, "w") as f:
 
     f.write(r"\end{document}" + "\n")
 
-print(f"\nGenerating PDF")
+print(f"Generating PDF")
 subprocess.run(["pdflatex", "--output-directory=build", latex_file],
                stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
 subprocess.run(["pdflatex", "--output-directory=build", latex_file],
                stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
-print(f"\nDone")
+print(f"Done")
