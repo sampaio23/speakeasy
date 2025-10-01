@@ -22,3 +22,4 @@ You can customize the `examples/speakeasy.conf` file to select which files to ad
 - [ ] Transpose to any key when creating the book
 - [ ] Flags to export only one score or 'configuration'
 - [ ] Flag to clean
+- [ ] Parallel build
